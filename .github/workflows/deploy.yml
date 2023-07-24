@@ -1,0 +1,9 @@
+name: frontend
+
+jobs:
+  deploy:
+    steps:
+      - uses: int128/deployment-action@v1
+        with:
+          environment-suffix: /frontend
+          
